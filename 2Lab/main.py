@@ -11,7 +11,6 @@ class Coffee:
 
 
 def main():
-    # Меню кофе
     coffee_options = {
         1: "Капучино",
         2: "Латте",
@@ -29,7 +28,6 @@ def main():
 
     type_coffee = coffee_options[choice]
 
-    # Сахар
     sugar_options = ["да", "нет"]
     sugar_choice = input("Хотите сахар? (да/нет): ").strip().lower()
     if sugar_choice not in sugar_options:
@@ -38,7 +36,6 @@ def main():
 
     with_sugar = sugar_choice == "да"
 
-    # Сироп
     syrup_options = ["Карамель", "Шоколад", "Ваниль"]
     print("Выберите сироп или введите '0' для отказа:")
     for i, syrup in enumerate(syrup_options, start=1):
@@ -53,10 +50,8 @@ def main():
         print("Неверный выбор. Попробуйте снова.")
         return
 
-    # Создание объекта кофе
     coffee = Coffee(type_coffee, with_sugar, syrup)
 
-    # Вывод заказа
     print(f"Ваш заказ: {coffee}")
 
 
