@@ -1,19 +1,2 @@
 Student: Сидоров Сидор, Class: 9
-  -> Teacher: Иванов Иван, Subjects: Математика
-  -> Teacher: Петров Петр, Subjects: Русский язык
-  -> Teacher: Константинов Константин, Subjects: Науки о природе
-  -> Teacher: Павлов Павел, Subjects: Химия
-  -> Teacher: Никитин Никита, Subjects: Биология, Химия
-  -> Teacher: Соколова Ольга, Subjects: Физика, Информатика
-  -> Teacher: Петрова Мария, Subjects: Информатика
     Математика Оценки: 5, 2
-Student: Лебедев Алексей, Class: 8
-  -> Teacher: Иванов Иван, Subjects: Математика
-  -> Teacher: Петров Петр, Subjects: Русский язык
-  -> Teacher: Константинов Константин, Subjects: Науки о природе
-  -> Teacher: Павлов Павел, Subjects: Химия
-  -> Teacher: Никитин Никита, Subjects: Биология, Химия
-  -> Teacher: Соколова Ольга, Subjects: Физика, Информатика
-  -> Teacher: Петрова Мария, Subjects: Информатика
-    Физика Оценки: 4
-    Информатика Оценки: 5
